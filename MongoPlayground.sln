@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoPlayground", "MongoPlayground\MongoPlayground.csproj", "{147F0BE4-264B-4E77-8445-5F2B62443A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoPlayground.App", "MongoPlayground.App\MongoPlayground.App.csproj", "{147F0BE4-264B-4E77-8445-5F2B62443A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoPlayground.Data", "MongoPlayground.Data\MongoPlayground.Data.csproj", "{24151F04-A4F1-46EA-8971-65195B1013C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoPlayground.Console", "MongoPlayground.Console\MongoPlayground.Console.csproj", "{1A33F8F9-45C4-4ED8-BD98-E0ED1E36664A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{147F0BE4-264B-4E77-8445-5F2B62443A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{147F0BE4-264B-4E77-8445-5F2B62443A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{147F0BE4-264B-4E77-8445-5F2B62443A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24151F04-A4F1-46EA-8971-65195B1013C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24151F04-A4F1-46EA-8971-65195B1013C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24151F04-A4F1-46EA-8971-65195B1013C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24151F04-A4F1-46EA-8971-65195B1013C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A33F8F9-45C4-4ED8-BD98-E0ED1E36664A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A33F8F9-45C4-4ED8-BD98-E0ED1E36664A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A33F8F9-45C4-4ED8-BD98-E0ED1E36664A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A33F8F9-45C4-4ED8-BD98-E0ED1E36664A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
