@@ -23,7 +23,15 @@ internal class Program
         var theRealScopedProvider = scope.ServiceProvider;
         var dbContext = theRealScopedProvider.GetRequiredService<ApplicationDbContext>();
 
+        var canConnect = dbContext.Database.CanConnect();
+        System.Console.WriteLine($"Can connect: {canConnect}");
+
+        dbContext.Database.EnsureCreated();
+        
         var query = dbContext.Users;
+        var materialization = query.ToList();
+
+        System.Console.WriteLine(materialization.Count);
 
         Mimmo.Things();
     }
