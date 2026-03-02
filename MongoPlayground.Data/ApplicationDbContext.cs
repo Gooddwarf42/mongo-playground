@@ -10,6 +10,6 @@ public sealed class ApplicationDbContext(IDbContextConfigurator dbContextConfigu
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        dbContextConfigurator.OnConfiguring(optionsBuilder);
+        dbContextConfigurator.OnConfiguring(optionsBuilder, Database);
     }
 }
